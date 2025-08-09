@@ -1,0 +1,25 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Entrées -->
+  <line x1="20" y1="35" x2="60" y2="35" stroke="black" stroke-width="4"/>
+  <line x1="20" y1="65" x2="60" y2="65" stroke="black" stroke-width="4"/>
+  <!-- Corps de la porte OR -->
+  <path d="M48,10
+           Q110,10 130,50
+           Q110,90 48,90
+           Q80,50 48,10
+           Z"
+        fill="lightgrey" stroke="black" stroke-width="4"/>
+  <!-- Courbe interne gauche -->
+  <!--
+  <path d="M60,10 Q90,50 60,90" fill="none" stroke="black" stroke-width="4"/>
+  -->
+  <!-- Sortie -->
+  <line x1="130" y1="50" x2="160" y2="50" stroke="black" stroke-width="4"/>
+
+  <!-- Texte (facultatif) -->
+  <text x="90" y="55" font-size="14" text-anchor="middle" font-family="sans-serif" fill="black">OR</text>
+  <text x="10" y="38" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">a</text>
+  <text x="10" y="70" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">b</text>
+  <text x="175" y="53" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">sortie</text>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Demi-cercle de la porte AND -->
+  <path d="M50 20 H110 A20 30 0 0 1 110 80 H50 Z" fill="lightgrey" stroke="black" stroke-width="4"/>
+
+  <!-- Entrées -->
+  <line x1="20" y1="35" x2="50" y2="35" stroke="black" stroke-width="4"/>
+  <line x1="20" y1="65" x2="50" y2="65" stroke="black" stroke-width="4"/>
+
+  <!-- Sortie -->
+  <line x1="130" y1="50" x2="160" y2="50" stroke="black" stroke-width="4"/>
+
+  <!-- Texte (facultatif) -->
+  <text x="90" y="55" font-size="14" text-anchor="middle" font-family="sans-serif" fill="black">AND</text>
+  <text x="10" y="38" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">a</text>
+  <text x="10" y="70" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">b</text>
+  <text x="175" y="53" font-size="12" text-anchor="middle" font-family="sans-serif" fill="black">sortie</text>
+</svg>
